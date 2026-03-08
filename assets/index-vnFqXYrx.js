@@ -68,7 +68,7 @@ Error generating stack: `+i.message+`
         .card-hover { transition: all 0.4s cubic-bezier(0.16,1,0.3,1); }
         .card-hover:hover { transform: translateY(-4px); }
         .glow-border { position: relative; }
-        .glow-border::before { content: ''; position: absolute; inset: -1px; border-radius: inherit; padding: 1px; background: linear-gradient(135deg, rgba(0,240,255,0.3), rgba(99,102,241,0.1), rgba(247,166,0,0.3)); -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask-composite: exclude; }
+        .glow-border::before { content: ''; position: absolute; inset: -1px; border-radius: inherit; padding: 1px; background: linear-gradient(135deg, rgba(0,240,255,0.3), rgba(99,102,241,0.1), rgba(247,166,0,0.3)); -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask-composite: exclude; pointer-events: none; }
         .grid-bg { background-image: linear-gradient(rgba(0,240,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0,240,255,0.03) 1px, transparent 1px); background-size: 60px 60px; }
         .btn-primary { background: linear-gradient(135deg, #00C9DB, #6366F1); transition: all 0.3s ease; position: relative; overflow: hidden; }
         .btn-primary::after { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent); transition: left 0.5s; }
