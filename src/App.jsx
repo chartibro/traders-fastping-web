@@ -443,7 +443,7 @@ export default function App() {
           <a href="#features" style={{ color: "#D4D4D4", textDecoration: "none", letterSpacing: "-0.2px" }}>기능</a>
           <a href="#exchanges" style={{ color: "#D4D4D4", textDecoration: "none", letterSpacing: "-0.2px" }}>거래소</a>
           <a href="#changelog" style={{ color: "#D4D4D4", textDecoration: "none", letterSpacing: "-0.2px" }}>업데이트</a>
-          <a href="#download" className="btn-primary" style={{ padding: "10px 24px", borderRadius: 8, color: "#fff", fontWeight: 600, fontSize: 14, textDecoration: "none" }}>다운로드</a>
+          <a href="https://chromewebstore.google.com/detail/ikmmhbmbnjjhojkdlebjohbamcenanil" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: "10px 24px", borderRadius: 8, color: "#fff", fontWeight: 600, fontSize: 14, textDecoration: "none" }}>다운로드</a>
         </div>
       </nav>
 
